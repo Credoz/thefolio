@@ -18,7 +18,7 @@ connectDB(); // Connect to MongoDB
 app.use(cors({
 origin: [
 'http://localhost:3000',
-'https://thefolio.vercel.app', // ← your Vercel URL (update after deployment)
+'https://thefolio-rose.vercel.app', // ← your Vercel URL (update after deployment)
 ],
 credentials: true,
 }));
